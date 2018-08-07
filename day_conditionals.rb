@@ -1,7 +1,7 @@
-if "raining"
-  #wear a rain coat
-  elsif "sunny"
-  #wear sun glasses
-else
-  #wear whatever you want
+if weather == raining
+  puts "Wear a rain jacket"
+  elsif weather == sunny
+  puts "Wear sun glasses"
+else 
+  puts "Wear a t-shirt"
 end
